@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="container-fluid bg-warning d-flex justify-content-center">
-      <p class="text-light mb-0 p-2 fs-6">Contactanos 0416-872-47-03</p>
+      <p class="text-light mb-0 p-2 fs-6">Servicio Comunitario UNEFA Táchira</p>
     </header>
     <div id="nav">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -14,7 +14,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <router-link class="nav-link" to="/proteccion">Proteccion Animal</router-link> 
+              <router-link class="nav-link" to="/">Proteccion Animal</router-link> 
               <router-link class="nav-link" to="/leyes">Leyes</router-link> 
               <router-link class="nav-link" to="/acerca">Acerca de Nosotros</router-link>
             </div>
@@ -25,13 +25,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="https://www.miaminews24.com/wp-content/uploads/2019/05/mascotas-sura.jpg" class="d-block w-100" alt="slide1">
+          <img src="https://www.miaminews24.com/wp-content/uploads/2019/05/mascotas-sura.jpg" class="d-block w-100 gg" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="https://blog.naturlider.com/wp-content/uploads/2020/05/AdobeStock_297781003-post-mascotas-1619x1079.jpeg" class="d-block w-100" alt="slide2">
+          <img src="https://blog.naturlider.com/wp-content/uploads/2020/05/AdobeStock_297781003-post-mascotas-1619x1079.jpeg" class="d-block w-100 gg" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="https://s28461.pcdn.co/wp-content/uploads/2017/10/6-formas-en-que-las-mascotas-son-buenas-para-la-salud.jpg" class="d-block w-100" alt="slide3">
+          <img src="https://s28461.pcdn.co/wp-content/uploads/2017/10/6-formas-en-que-las-mascotas-son-buenas-para-la-salud.jpg" class="d-block w-100 gg" alt="slide3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -52,7 +52,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lobster&display=swap');
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -69,7 +69,20 @@
 #nav a.router-link-exact-active {
   color: orange;
 }
-.carousel-inner{
+
+.carousel-inner, .gg{
   max-height: 39rem;
 }
+
+@media (max-width:768px) {
+  .carousel-inner, .gg{
+    max-height: 18rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-inner, .gg{
+    height: 13rem;
+  }
+} 
 </style>
