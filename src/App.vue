@@ -6,8 +6,9 @@
     <div id="nav">
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <span class="text-warning fs-5 fw-bold">UNEFA</span>
+          <a class="navbar-brand" href="">
+            <img src="~@/assets/logo.png" class="logo">
+            <span class="text-warning fs-5 fw-bold"> UNEFA</span>
           </a>
           <button class="navbar-toggler btn-white btn btn-outline-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,13 +26,13 @@
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="3000">
-          <img src="https://www.miaminews24.com/wp-content/uploads/2019/05/mascotas-sura.jpg" class="d-block w-100 gg" alt="slide1">
+          <img src="~@/assets/slider1.jpg" class="d-block w-100 gg" alt="slide1">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="https://blog.naturlider.com/wp-content/uploads/2020/05/AdobeStock_297781003-post-mascotas-1619x1079.jpeg" class="d-block w-100 gg" alt="slide2">
+          <img src="~@/assets/slider2.jpeg" class="d-block w-100 gg" alt="slide2">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-          <img src="https://s28461.pcdn.co/wp-content/uploads/2017/10/6-formas-en-que-las-mascotas-son-buenas-para-la-salud.jpg" class="d-block w-100 gg" alt="slide3">
+          <img src="~@/assets/slider3.jpg" class="d-block w-100 gg" alt="slide3">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -45,6 +46,14 @@
     </div>
     <router-view/>
     <!-- footer -->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3 pt-3">La Turena, Sector los Naranjos</p>
+      <div id="iconos">
+        <router-link to="/"><i class="bi bi-hand-index-thumb-fill"></i></router-link> 
+        <router-link to="/leyes"><i class="bi bi-hammer"></i></router-link> 
+        <router-link to="/acerca"><i class="bi bi-geo-alt-fill"></i></router-link> 
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -71,12 +80,32 @@
 }
 
 .carousel-inner, .gg{
-  max-height: 39rem;
+  height: 39rem;
+}
+
+footer {
+  background-color: orange;
+  min-height: 100px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
+
+#iconos i {
+  font-size: 26px;
+  padding: 0 8px;
+  color: white;
+}
+
+.logo{
+  width: 25%;
 }
 
 @media (max-width:768px) {
   .carousel-inner, .gg{
-    max-height: 18rem;
+    height: 15rem;
   }
 }
 

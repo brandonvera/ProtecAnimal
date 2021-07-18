@@ -10,21 +10,21 @@
 	  	</div>
 	  	<div class="row w-75 my-2 mx-auto servicio-fila">
 	  		<div class="col-lg-4 col-md-4 col-sm-12 my-1 icono-wrap">
-	  			<img src="https://www.wearetesters.com/wp-content/uploads/2018/11/MASCOTAS.jpg" class="img1" alt="">
+	  			<img src="../assets/pro1.jpg" class="img1" alt="">
 	  			<div>
 	  				<h3 class="fs-5 mt-4 px-4 pb-1">Hidratación</h3>
-	  				<p class="px-4">Seguir con la hidratación y comidas que venía realizando; su rutina.</p>
+	  				<p class="px-4">llevar una hidratación considerable y comidas que vayan con su rutina.</p>
 	  			</div>
 	  		</div>
 	  		<div class="col-lg-4 col-md-4 col-sm-12 my-1 icono-wrap">
-	  			<img src="https://cdn.mequieroir.com/wp-content/uploads/2019/10/mascota-espana-blanca-1024x639.jpg" class="img1" alt="">
+	  			<img src="../assets/pro2.jpg" class="img1" alt="">
 	  			<div>
 	  				<h3 class="fs-5 mt-4 px-4 pb-1">Alimentación</h3>
 	  				<p class="px-4">Los gatos y perros deben tener su propia alimentación, evitar la mezcla de ambos concentrados.</p>
 	  			</div>
 	  		</div>
 	  		<div class="col-lg-4 col-md-4 col-sm-12 my-1 icono-wrap">
-	  			<img src="https://regionnet.com.ar/wp-content/uploads/2021/05/branded_content-marcas_destacadas-amazon-mascotas-perros-frio-proteccion_de_animales-los_imprescindibles_463215701_143682495_1706x960.jpg" class="img1" alt="">
+	  			<img src="../assets/pro3.jpg" class="img1" alt="">
 	  			<div>
 	  				<h3 class="fs-5 mt-4 px-4 pb-1">Evitar</h3>
 	  				<p class="px-4">Uvas, Café, Té, Auyama, Huevo Crudo, Golosinas, Chocolate y Huesos.</p>
@@ -38,7 +38,7 @@
 	  	</div>
 	  	<div class="row w-75 mt-2 my-2 mx-auto servicio-fila">
 	  		<div class="col-md-12 clearfix icono-wrap">
-	  			<img src="https://estaticos.muyinteresante.es/uploads/images/article/5e53ccda5cafe849c002505d/mascotas.jpg" class="img2 col-md-6 float-md-end mb-3 ms-md-3" alt="">
+	  			<img src="../assets/pro4.jpg" class="img2 col-md-6 float-md-end mb-3 ms-md-3" alt="">
 	  		
 	  			<h3 class="fs-5 px-4 pb-1">Recompensa</h3>
 	  			<p class="px-4">Si tu perro hace cosas bien y tiene un buen comportamiento, prémialo. No solo puedes hacerlo con chucherías para perros. Puedes premiar su buena conducta con caricias, alentándolo con frases motivadoras y recordándole siempre que puedas cuánto lo quieres.</p>
@@ -46,14 +46,14 @@
 	  	</div>
 	  	<div class="row w-75 my-2 mx-auto servicio-fila">
 	  		<div class="col-md-12 clearfix icono-wrap">
-	  			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyM10slkCG2plhsLTKy3RZkeaP3tbyjaDisA&usqp=CAU" class="img2 col-md-6 float-md-start mb-3 mx-3 ms-md-3" alt="">
+	  			<img src="../assets/pro5.jpg" class="img2 col-md-6 float-md-start mb-3 mx-3 ms-md-3" alt="">
   				<h3 class="fs-5 px-4 pb-1">Veterinario</h3>
   				<p class="px-4">Las visitas al veterinario solo deberían ser de rutina. Nadie quiere ir corriendo al veterinario por una emergencia. Aunque lo accidentes ocurren, evita enfermedades o infestaciones de parásitos en tu perro con unos buenos hábitos de higiene, una alimentación adecuada y visitas periódicas al veterinario.</p>
 	  		</div>
 	  	</div>
 	  	<div class="row w-75 mt-2 my-2 mx-auto servicio-fila">
 	  		<div class="col-md-12 clearfix icono-wrap">
-	  			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZ6EZffR18ofA5F-6XvOnmh3viAiqkASSfgTh9icgNiDByJQXc8TJnLKDYmFdkOxB20o&usqp=CAU" class="img2 col-md-6 float-md-end mb-3 ms-md-3" alt="">
+	  			<img src="../assets/pro6.jpg" class="img2 col-md-6 float-md-end mb-3 ms-md-3" alt="">
 	  		
 	  			<h3 class="fs-5 px-4 pb-1">Higiene</h3>
 	  			<p class="px-4">La higiene es otro aspecto que no debes descuidar. Cepilla a tu perro diariamente, o varias veces al día si tiene mucho pelo. Con este gesto, además de eliminar pelo y piel muerta, estrechas lazos con tu perro y afianzas vuestro vínculo. Aprovecha y cuida a tu perro al máximo: háblale con cariño, acarícialo, que sienta todo tu amor y respeto.</p>
