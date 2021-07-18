@@ -47,7 +47,7 @@
     <router-view/>
     <!-- footer -->
     <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
-      <p class="fs-5 px-3 pt-3">La Turena, Sector los Naranjos</p>
+      <p class="fs-5 px-3 pt-3">La Turena, Comunidad los Naranjos</p>
       <div id="iconos">
         <router-link to="/"><i class="bi bi-hand-index-thumb-fill"></i></router-link> 
         <router-link to="/leyes"><i class="bi bi-hammer"></i></router-link> 

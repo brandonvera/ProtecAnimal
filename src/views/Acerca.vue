@@ -7,7 +7,7 @@
 				<div class="color">
 					<vue-typer text='Servicio Comunitario UNEFA Táchira'></vue-typer>
 				</div>
-				<h2>Ubicado en Palo Gordo, Cardenas Estado Tachira</h2>
+				<h2>Realizado por estudiantes de la UNEFA Táchira</h2>
 				<h2 class="text-warning mb-4" id="typewriter"></h2>
 				<p class="fs-5 text-body">Consejo Comunal los Naranjos en el sector la Turena, calle del Medio.</p>
 				<section class="d-flex" id="numeros-local">
@@ -27,10 +27,28 @@
 			</div>
 		</div>
 	</div>
+	<section class="container-fluid bg-sec">
+	<div class="row w-100 mx-auto servicio-fila">
+		<div class="col-lg-6 col-md-6 col-sm-12 my-1 icono-wrap d-flex justify-content-center">
+			<img src="../assets/c1.jpg" class="img-fluid imgi">
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12 my-1 icono-wrap d-flex justify-content-center">
+			<img src="../assets/c2.jpg" class="img-fluid imgi">
+		</div>
+	</div>
+	</section>
+	
+	
   </div>
 </template>
 
 <style>
+	.imgi{
+		width: 75%;
+		height: 320px;
+		border-radius: 2px;
+	}
+
 	.mapa{
 		width: 100%;
 		height: 400px;
@@ -73,6 +91,12 @@
 	  	color: gray;
 	}
 
+	.bg-sec{
+		padding-top: 2%;
+		padding-bottom: 2%;
+		background: #f3f3f3;
+	}
+
 	@media(max-width: 1200px) {
 		#local {
 			flex-wrap: wrap;
@@ -89,6 +113,11 @@
 		.mapa{
 			width: 100%;
 			height: 200px;
+		}
+		.imgi{
+			width: 75%;
+			height: 240px;
+			border-radius: 2px;
 		}
 	}
 </style>
